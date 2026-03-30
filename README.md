@@ -4,7 +4,7 @@ This repository contains a modular Python project that analyzes the leading caus
 
 The data is fetched directly from the [NYC Open Data API](https://catalog.data.gov/dataset/new-york-city-leading-causes-of-death-ce97f), cleaned using Regular Expressions and Pandas, and visualized using interactive Plotly charts.
 
-## 🗂 Project Structure
+## Project Structure
 
 ```text
 nyc-death-analysis/
