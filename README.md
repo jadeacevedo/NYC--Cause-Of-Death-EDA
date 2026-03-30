@@ -3,7 +3,27 @@
 This repository contains a modular Python project that analyzes the leading causes of death in New York City from 2007 to the present. By examining trends across different years, sexes, and race/ethnicities, this analysis aims to highlight critical public health patterns.
 
 The data is fetched directly from the [NYC Open Data API](https://catalog.data.gov/dataset/new-york-city-leading-causes-of-death-ce97f), cleaned using Regular Expressions and Pandas, and visualized using interactive Plotly charts.
+Methodology & Data Processing
 
+The dataset contains over 1,300 records detailing yearly death counts, crude death rates, and age-adjusted death rates. To prepare the data for analysis, a custom text-processing pipeline was implemented using Regular Expressions (Regex) to strip out complex ICD (International Classification of Diseases) codes, standardizing the cause-of-death descriptions. The core analysis relies on complex aggregations and pivot tables to calculate the mean death counts and age-adjusted rates across multidimensional demographic groupings.
+
+**Key Dimensions Explored**
+
+* Aggregate Mortality: Identifying the absolute highest killers in the city regardless of demographic lines.
+
+* Gender Disparities: Analyzing how mortality profiles diverge between males and females.
+
+* Temporal Trends: Tracking the rise and fall of specific diseases over a multi-year horizon (focusing heavily on the 2014–2017 shift).
+
+* Demographic Vulnerabilities: Cross-referencing race/ethnicity with specific diseases to identify vulnerable subpopulations (e.g., heart disease in young minority males).
+
+**Core Insights Derived from the EDA**
+
+* The "Big Two" Dominance: The EDA overwhelmingly confirms that Diseases of the Heart and Malignant Neoplasms (Cancer) are the apex public health threats in NYC, vastly outnumbering all other causes of death combined.
+
+* Divergent Risk Profiles by Sex: The visualizations reveal that secondary mortality causes are highly gendered. Males experience significantly higher mortality from external/behavioral factors (Assault, Suicide, Accidents), whereas females face higher mortality from physiological and age-related conditions (Cerebrovascular Disease, Alzheimer's, Hypertension).
+
+* The Aging Population Curve: Time-series analysis uncovered a steep, statistically significant increase in deaths caused by Alzheimer’s, Hypertension, and Parkinson’s disease starting around 2014. This strongly indicates a demographic shift toward an aging population, highlighting a growing need for geriatric and neurodegenerative healthcare infrastructure.
 
 ----------------------------------------------------
 ## Insights and key findings 
