@@ -7,19 +7,23 @@ The data is fetched directly from the [NYC Open Data API](https://catalog.data.g
 
 ----------------------------------------------------
 ## Insights and key findings 
-1. The Dominance of Heart Disease and Cancer
+
+### 1. The Dominance of Heart Disease and Cancer
+
 Analysis: Looking at the overall top causes of death, "Diseases of the Heart" and "Malignant Neoplasms" (Cancer) vastly outnumber all other causes. The drop-off in total deaths between these top two and the third leading cause is steep.
 <img width="1103" height="928" alt="newplot (2)" src="https://github.com/user-attachments/assets/e31c6414-674c-4842-91a0-546910161918" />
 
 Conclusion: Public health initiatives, funding, and preventative care in NYC must continue to heavily prioritize cardiovascular health and cancer screenings. These two areas represent the most significant threat to public health across all demographics.
 
-2. Distinct Mortality Profiles by Sex
+### 2. Distinct Mortality Profiles by Sex
+
 Analysis: When breaking down the top causes by sex, we see structural differences in mortality. While heart disease and cancer are the leading killers for both men and women, the secondary causes diverge. Males historically show higher rates of mortality from external causes (like accidents, suicide, and assault) and Parkinson's. Females show higher rates of mortality from Cerebrovascular Disease (Strokes), Alzheimer's, and Hypertension.
 <img width="1103" height="928" alt="newplot" src="https://github.com/user-attachments/assets/f3986e1b-7d35-433f-bdd9-c46c1ffae360" />
 
 Conclusion: Healthcare interventions and public safety messaging need to be gender-aware. For men, mental health support, violence prevention, and accident awareness are critical areas for intervention. For women, early screening for strokes, blood pressure management, and elder care support are paramount.
 
-3. The Rise of Neurodegenerative and Age-Related Diseases
+### 3. The Rise of Neurodegenerative and Age-Related Diseases
+
 Analysis: The trend lines over time (particularly looking at the 2014–2017 period and beyond) show a distinct upward trajectory for diseases like Alzheimer's, Parkinson's, and Hypertension. Parkinson's, in particular, emerged as a major cause in later years.
 <img width="1103" height="928" alt="newplot (3)" src="https://github.com/user-attachments/assets/8f65dd8c-927b-4fe5-b5f6-7a45dc7e7f84" />
 
