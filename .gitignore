@@ -1,0 +1,11 @@
+# Ignore data files
+data/*.json
+data/*.csv
+
+# Ignore generated visualization outputs
+output/
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
